@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'documentation'
+project = 'PROJECT'
 copyright = '2020 Kim'
 author = 'Kim Yukyeong'
 
