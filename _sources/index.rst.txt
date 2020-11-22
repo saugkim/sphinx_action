@@ -9,8 +9,9 @@ Github action test with Sphinx's documentation!
 .. toctree::
    :maxdepth: 2
 
+.. include:: intro.rst
+
    people.rst
-   intro.rst
    documentation.rst
    tools.rst
    schedule.rst
@@ -24,5 +25,4 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
