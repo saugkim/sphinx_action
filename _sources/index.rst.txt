@@ -9,14 +9,11 @@ Github action test with Sphinx's documentation!
 .. toctree::
    :maxdepth: 2
 
-.. include:: intro.rst
-
    people.rst
    documentation.rst
    tools.rst
    schedule.rst
    features.rst
-
 
 Version 0.0
 
