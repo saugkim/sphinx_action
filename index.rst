@@ -10,7 +10,7 @@ Github action test with Sphinx's documentation!
    :maxdepth: 2
    :caption: Contents:
    
-.. include:: README.rst
+.. include:: https://raw.githubusercontent.com/rkdarst/sphinx-actions-test/master/README.rst
 
 
 Version 0.0
