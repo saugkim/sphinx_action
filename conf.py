@@ -46,16 +46,16 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Test project'
-copyright = '2019, Richard Darst'
-author = 'Richard Darst'
+project = 'Github action test with Sphinx'
+copyright = '2020 Kim'
+author = 'Kim Yukyeong'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #
 # The short X.Y version.
-version = ''
+version = '0.0'
 # The full version, including alpha/beta/rc tags.
 release = ''
 
