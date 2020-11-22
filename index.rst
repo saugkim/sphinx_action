@@ -16,13 +16,9 @@ Circuit Simulator
    schedule.rst
    features.rst
 
-About project
-***************
-- Tools: C++, Cmake, SFML-IMGUI
-- Fall 2020, Aalto 
 
-Learning objectives of the project
-***********************************
+Learning objectives of the project, Aalto 2020
+************************************************
 - Get more familiarity with C++ by designing a whole program from scratch that utilizes different C++ features
 - Learn to design object-oriented program that consists of multiple modules, developed by multiple developers
 - Group work, where the strengths of each group member are taken properly into account, such that each group member will have an important role in the outcome
