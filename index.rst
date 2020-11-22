@@ -17,12 +17,12 @@ Github action test with Sphinx!
 
 Learning objectives of the project
 ***********************************
- - Get more familiarity with C++ by designing a whole program from scratch that utilizes different C++ features
- - Learn to design object-oriented program that consists of multiple modules, developed by multiple developers
- - Group work, where the strengths of each group member are taken properly into account, such that each group member will have an important role in the outcome
- - Get to know about different libraries that can be used in a C++ program
- - Get familiar with various important software development tools, such as Git and CMake
- - Reviewing and giving feedback on work made by others
+- Get more familiarity with C++ by designing a whole program from scratch that utilizes different C++ features
+- Learn to design object-oriented program that consists of multiple modules, developed by multiple developers
+- Group work, where the strengths of each group member are taken properly into account, such that each group member will have an important role in the outcome
+- Get to know about different libraries that can be used in a C++ program
+- Get familiar with various important software development tools, such as Git and CMake
+- Reviewing and giving feedback on work made by others
 
 Project description
 ***********************	
@@ -34,15 +34,7 @@ Project description
 
 - MNA (Modified Nodal Analysis) is recommended for implementing the solver. It uses linear matrix algebra and involves laplace transforms for the reactive components and fourier transforms for non-sinusoidal signals.
 	
-	
 - https://www.circuitlab.com/editor/#?id=7pq5wm&from=homepage
 - https://www.falstad.com/circuit/
 - https://docs.google.com/document/d/1shQ2s8UD8izKcHNQ82qJS6qiMWnS_RHnsDUpiUFOro8/edit
 - https://coderefinery.github.io/documentation/
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`
