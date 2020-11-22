@@ -1,9 +1,9 @@
 continuous deployment test 
 
 ToDo?  
-  -automate creation pdf file
+  - automate creation pdf file
   
-Website for project: saugkim.github.io/sphinx_action   
+Website for project: https://saugkim.github.io/sphinx_action   
 Collection of information 
 
 This GitHub action + Sphinx with help of https://github.com/rkdarst/sphinx-actions-test  
