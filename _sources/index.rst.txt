@@ -8,7 +8,8 @@ Github action test with Sphinx!
 
 .. toctree::
    :maxdepth: 2
-   
+   :hidden:
+   intro.rst
    people.rst
    documentation.rst
    tools.rst
