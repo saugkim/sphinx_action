@@ -13,7 +13,7 @@ Github action test with Sphinx's documentation!
 .. include:: README.rst
 
 
-Version 1.0
+Version 0.0
 
 
 Indices and tables
