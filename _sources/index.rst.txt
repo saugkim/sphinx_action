@@ -9,8 +9,13 @@ Github action test with Sphinx's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-   
-.. include:: https://raw.githubusercontent.com/rkdarst/sphinx-actions-test/master/README.rst
+
+   people.rst
+   intro.rst
+   documentation.rst
+   tools.rst
+   schedule.rst
+   features.rst
 
 
 Version 0.0

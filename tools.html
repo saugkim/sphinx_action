@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOOLS &#8212; Github action test with Sphinx  documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="SCHEDULE" href="schedule.html" />
+    <link rel="prev" title="DOCUMENTATION" href="documentation.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="tools">
+<h1>TOOLS<a class="headerlink" href="#tools" title="Permalink to this headline">¶</a></h1>
+<p>Using libraries
+The GUI isn’t very complicated, so a basic graphics library should be enough.</p>
+<p>For solving differential equations, you should use a library instead of writing your own solver. This might save you from a lot of headache.</p>
+<ul>
+<li><dl class="simple">
+<dt><a class="reference external" href="https://mycourses.aalto.fi/course/view.php?id=28448&amp;section=3">https://mycourses.aalto.fi/course/view.php?id=28448&amp;section=3</a></dt><dd><p>Course: ELEC-A7151 - Object oriented programming with C++, 08.09.2020-11.12.2020, Section: Software project</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>git repository</dt><dd><p><a class="reference external" href="https://courses-git.comnet.aalto.fi/CPP-F2020/circuit-sim-2020-1">https://courses-git.comnet.aalto.fi/CPP-F2020/circuit-sim-2020-1</a></p>
+</dd>
+</dl>
+</li>
+<li><p><a class="reference external" href="https://tim.aalto.fi/view/elec-a7151/fall2020/projects/circuit-simulator">https://tim.aalto.fi/view/elec-a7151/fall2020/projects/circuit-simulator</a></p></li>
+<li><p><a class="reference external" href="https://tim.aalto.fi/view/elec-a7151/fall2020/6-project-tools">https://tim.aalto.fi/view/elec-a7151/fall2020/6-project-tools</a></p></li>
+<li><p><a class="reference external" href="https://git-scm.com/book/en/v2">https://git-scm.com/book/en/v2</a>   Git - Book</p></li>
+<li><dl class="simple">
+<dt>circuit symbols</dt><dd><p><a class="reference external" href="https://electronicsclub.info/circuitsymbols.htm">https://electronicsclub.info/circuitsymbols.htm</a></p>
+</dd>
+</dl>
+</li>
+<li><p><a class="reference external" href="https://learning.oreilly.com/library/view/programming-interactivity/9780596800598/apa.html">https://learning.oreilly.com/library/view/programming-interactivity/9780596800598/apa.html</a></p></li>
+<li><p>CMake</p>
+<blockquote>
+<div><p>CMake is a more advanced build tool that generates the makefile. CMake also works in Windows and OS X environments (it can be integrated with Visual Studio or Xcode). With CMake it is easy to make so called “out-of-place builds” which means that the generated object and executable files are not in the same directory as the source code. This helps keeping the source directory tidy.</p>
+<p>CMake configuration is defined in file titled “CMakeLists.txt”. I defines the high-level configuration about source file locations, target files, and library dependencies. Additionally CMake scans the system build environment, and generates the actual Makefiles based on this information that will build the running program. Benefit of CMake is that it makes it easier to build the source code in different environments.</p>
+</div></blockquote>
+</li>
+<li><p>SFML</p>
+<blockquote>
+<div><p>SFML is a fairly easy to use graphics/sound/etc library especially useful for developing simple graphical games.</p>
+<p>The Aalto Linux machines have SFML 2.5.1 readily installed, so it is advised that you test your project with that version, even though there are also newer versions.</p>
+<p>The SFML web page
+Some helpful tutorials
+Useful book: “SFML game development : learn how to use SFML 2.0 to develop your own feature-packed game” from Aalto univeristy library
+Instructions on how to set SFML on Eclipse (Windows/Linux). In addition, on Windows the SFML .dll files need to be placed in a location that is accessible for the project. One working solution is to copy the .dll files to the same location with your project executable. (Thanks to Kristian Salo for the hint)</p>
+</div></blockquote>
+</li>
+</ul>
+<div class="section" id="links">
+<h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><dl class="simple">
+<dt>SFML</dt><dd><p>a simple multimedia library for graphics and media playback.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>IMGUI</dt><dd><p>a simple library for making GUIs easily. <a class="reference external" href="https://github.com/ocornut/imgui">https://github.com/ocornut/imgui</a></p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>IMGUI-SFML</dt><dd><p>library which allows you to use ImGui with SFML.  <a class="reference external" href="https://github.com/eliasdaler/imgui-sfml">https://github.com/eliasdaler/imgui-sfml</a></p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Qt</dt><dd><p>an application framework with extended capabilities, like UI features.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Odeint</dt><dd><p>ODE solver library  <a class="reference external" href="http://headmyshoulder.github.io/odeint-v2/">http://headmyshoulder.github.io/odeint-v2/</a></p>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="documentation.html" title="previous chapter">DOCUMENTATION</a></li>
+      <li>Next: <a href="schedule.html" title="next chapter">SCHEDULE</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020 Kim.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.3.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/tools.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
