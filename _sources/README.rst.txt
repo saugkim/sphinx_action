@@ -1,5 +1,5 @@
-Demo of Sphix + github actions to deploy it
-===========================================
+Sphix + github actions to deploy it
+************************************
 
 This demonstrates building a Github Action workflow.  Main points:
 
