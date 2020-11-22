@@ -3,14 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Github action test with Sphinx!
+Circuit Simulation Project, Aalto
 ================================================
 
 .. toctree::
    :maxdepth: 2
    
    intro.rst
-   people.rst
    documentation.rst
    tools.rst
    schedule.rst
