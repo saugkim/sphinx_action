@@ -8,7 +8,7 @@ Circuit Simulator
 
 .. toctree::
    :maxdepth: 2
-   :includehidden:
+   :hidden:
    
    intro.rst
    documentation.rst
