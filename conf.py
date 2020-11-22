@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Github action test with Sphinx'
+project = 'CS Documentation'
 copyright = '2020 Kim'
 author = 'Kim Yukyeong'
 
